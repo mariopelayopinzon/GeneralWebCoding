@@ -1,0 +1,83 @@
+html{ 
+    
+    font-size: 18px;
+}
+
+.body{
+    margin: 0%;
+    padding: 0%;
+    
+    }
+
+.Encabezado-pagina{
+    background-color: gray;
+    color: #111;    
+    text-align: center;
+    padding: .5rem;
+    box-shadow: 5px 5px 5px;
+    font-size: .8rem;
+    position: relative;
+}
+
+.Contenido-1{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+.card{
+    flex: 0 0 calc(20%);
+    margin: .3rem;
+    border: .2rem black solid;
+    padding: 0.5rem;
+    background-color: rgba(169, 173, 172, 0.42);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px;
+}
+
+.Pie-de-pagina{
+    background-color: gray;
+    color:black;    
+    text-align: center;
+    padding: .5rem;
+    font-size: 15px;
+    bottom: .1px;
+    position: absolute;
+    width: 100%;
+    box-shadow: 10px 10px 8px;
+}
+
+.social-links li{
+    display: inline-block;
+    text-decoration: none;
+    padding: .1rem;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.DragonImage{
+    width: 10rem;
+    position: relative;
+}
+
+btn-dragon{
+    position: absolute;
+    display: inline-flexbox;
+    
+}
+
+@media screen and (max-width: 550px){
+    main{
+        flex-direction: column;
+        align-items: center;
+        margin: .04rem;
+
+    }
+}
